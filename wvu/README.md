@@ -2,7 +2,7 @@
 
 This is a test transcription of some passages from the July, 1866, Wheeling Daily Intelligencer.
 
-The format is a series of JSON records, with newspaper page ID, cluster ID, and text transcription.
+The format is a series of JSON records, with newspaper page ID, cluster ID, and text transcription.  The field `fixed` is set to `true` when a record has been corrected.
 
 The text does _not_ use XML syntax, so ampersands, angle brackets, etc., are transcribed literally as `&`, `<`, and so on.  Perhaps we'll need to change this at some point.
 
@@ -14,3 +14,4 @@ No markup has been inserted to indicate font changes for italic, bold, small cap
 
 Some of the LoC OCR output seems to silently reassemble hyphenated words across line breaks. These have been re-separated using a literal (low-ASCII, not soft) hyphen.
 
+Misspellings and erroneous punctuation have been retained.
