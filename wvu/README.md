@@ -15,3 +15,8 @@ No markup has been inserted to indicate font changes for italic, bold, small cap
 Some of the LoC OCR output seems to silently reassemble hyphenated words across line breaks. These have been re-separated using a literal (low-ASCII, not soft) hyphen.
 
 Misspellings and erroneous punctuation have been retained.
+
+You can use the `jq` command to turn these multi-line human-readable files back into files with one line per record, e.g.:
+```
+jq -c . belgium50.json > records.json
+```
