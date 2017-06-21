@@ -2,9 +2,11 @@
 
 This is a test transcription of some passages from the July, 1866, Wheeling Daily Intelligencer.
 
+Since this was a pilot project, not all conventions listed here have been followed in the other transcriptions in this repository.
+
 The format is a series of XML `<ROW>` records, with newspaper page ID, cluster ID, and text transcription.  The field `fixed` is set to `true` when a record has been corrected.
 
-The text uses XML syntax, so ampersands, angle brackets, etc., are transcribed as `&amp;`, `<lt;`, and so on.
+The text uses XML syntax, so ampersands, angle brackets, etc., are transcribed as `&amp;`, `&lt;`, and so on.
 
 Garbage characters resulting from mis-recognizing horizontal and vertical rules as characters have been removed.
 
